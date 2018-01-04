@@ -39,6 +39,7 @@ branches:
   only:
   - master
   - /^toolchain-.*$/
+  - merge-250-with-travis-containerized-build
 
 before_install:
   # Set C/C++ compiler
